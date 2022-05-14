@@ -1,0 +1,32 @@
+{
+  "name": "fly-js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "tsc": "tsc",
+    "vue": "vue",
+    "start": "webpack-dev-server --config webpack.config.develop.js",
+    "start-release": "webpack-dev-server --config webpack.config.production-server.js",
+    "build": "webpack --config webpack.config.develop.js",
+    "build-release": "webpack --config webpack.config.producton.js"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "expose-loader": "^3.1.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.72.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

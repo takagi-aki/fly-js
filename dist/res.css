@@ -1,0 +1,12 @@
+html.maxsize,body.maxsize,div.maxsize{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+    border:0;
+    vertical-align:top;
+}
+
+canvas{
+    vertical-align:top;
+}
